@@ -13,7 +13,7 @@ var client: commando.CommandoClient = new commando.CommandoClient({
 });
 
 // NOTICE
-// You may have noticed the typings-discord.js-commando folder on the right.
+// You may have noticed the typings-discord.js-commando folder on the left.
 // Typings are what people define what their classes are what their functions are so that other devs can
 // use IntelliSense. They should automatically install with djs-commando (like they did with discord.js) but
 // I can't get them to do it automatically. I have downloaded the latest copy from the GitHub repository and put
