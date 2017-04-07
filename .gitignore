@@ -1,0 +1,7 @@
+node_modules/
+typings-discord.js-commando/
+
+# include any secret.json/config.json that you don't want uploaded to Git
+secret.json
+config.json
+UnitedStates_LaunchCodes.json

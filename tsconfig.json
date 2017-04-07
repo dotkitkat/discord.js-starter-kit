@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "lib": [
+            "dom",
+            "es2017",
+            "es2015"
+        ],
+        "allowJs": true
+    },
+    "include": [
+        "*.ts", "**/*.ts"
+    ],
+    "exclude": [
+        "*.js", "**/*.js", "node_modules", "node_modules/*", "node_modules/**/*"
+    ]
+}
