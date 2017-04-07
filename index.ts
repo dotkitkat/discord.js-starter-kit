@@ -23,7 +23,7 @@ var client: commando.CommandoClient = new commando.CommandoClient({
 // client = 2;
 // you can not convert `number` to `commando.CommandoClient`
 
-var commandGroups = [
+var commandGroups: string[][] = [
     ['fun', 'Fun']
     // ['folderName', 'GroupName']
 ]
@@ -33,9 +33,13 @@ client.registry
     .registerGroups(commandGroups)
     .registerCommandsIn(path.join(__dirname, 'commands'))
 
-client.login("mytoken");
+// variable mytoken is of type string
+var mytoken: string = "mytoken";
+
+client.login(mytoken);
 
 // : number = returns number
 function myFunctionThatReturnsNumber(): number {
     return 1;
+    // not returning anything will crash the compiler and show an error message in VSC
 }
